@@ -8,7 +8,7 @@ client.on("message", message => {
 if(message.content === "test") {
 	webhookClient.send("your message", {
 	username: 'Onee San',
-	avatarURL: 'https://imgur.com/a/Ax02Axz',
+	avatarURL: 'https://i.imgur.com/tAf0ojU.jpg',
 	
      })
     }
