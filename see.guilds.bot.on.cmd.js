@@ -9,7 +9,7 @@ client.on('ready', () => {
   // List servers the bot is connected to
     console.log("Servers list :")
      client.guilds.cache.forEach((guild) => {
-        console.log(`> ${guild}`);
+        console.log(`> ${guild.name}`);
     })
   });
 
